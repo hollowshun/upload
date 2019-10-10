@@ -1,6 +1,6 @@
 # upload
 
-> A Vue.js project
+> element upload组件动态绑定file-list,保存并回显
 
 ## Build Setup
 
