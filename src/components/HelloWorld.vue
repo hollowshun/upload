@@ -95,7 +95,9 @@ export default {
     }
   },
   created() {
-    this.formList = JSON.parse(localStorage.getItem("formList"));
+    this.formList = JSON.parse(localStorage.getItem("formList")) || [
+      { pics: [] }
+    ];
   }
 };
 </script>
